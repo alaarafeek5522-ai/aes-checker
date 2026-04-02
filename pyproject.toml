@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "aes-checker"
+version = "0.1.0"
+description = "AES-based SSL bypass and cookie challenge solver"
+authors = [{name = "Alaa", email = "alaarafeek5522@gmail.com"}]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+dependencies = ["pycryptodome"]
