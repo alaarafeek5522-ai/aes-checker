@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "aes-checker"
+name = "vspider-api"
 version = "0.1.0"
 description = "AES-based SSL bypass and cookie challenge solver"
 authors = [{name = "Alaa", email = "alaarafeek5522@gmail.com"}]
